@@ -11,8 +11,8 @@ variable "resource_group_name" {
 
 variable "resource_location" {
   type        = string
-  description = "Geographic location of the resource (e.g. us-south, us-east)"
-  default = "dal10"
+  description = "Geographic location of the resource (e.g. dal10, fra02, syd01)"
+  #default = "dal10"
 }
 
 variable "tags" {
@@ -24,7 +24,7 @@ variable "tags" {
 variable "name_prefix" {
   type        = string
   description = "The prefix name for the service. If not provided it will default to the resource group name"
-  default     = ""
+  #default     = ""
 }
 variable "name" {
   type        = string
