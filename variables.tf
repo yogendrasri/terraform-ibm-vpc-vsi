@@ -5,7 +5,7 @@ variable "ibmcloud_api_key" {
 
 variable "resource_group_name" {
   type        = string
-  description = "Resource group where the cluster has been provisioned."
+  description = "Resource group where the HPVS has to be provisioned."
     
 }
 
